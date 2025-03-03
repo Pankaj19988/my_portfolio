@@ -1,0 +1,248 @@
+{
+    "personalInfo": {
+        "name": "Pankaj Malankiya",
+        "title": "MERN Stack Developer | Frontend Engineer",
+        "description": "Proficient MERN Stack Developer with 3+ years of hands-on experience in building responsive web applications, integrating APIs, and creating scalable frontend solutions.",
+        "email": "pankajmalankiya@gmail.com",
+        "phone": "+91-78784-39634",
+        "location": "Surat, Gujarat, India",
+        "socialLinks": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/Pankaj19988",
+                "icon": "github"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/pankaj-malankiya-3a6ba1271/",
+                "icon": "linkedin"
+            }
+        ]
+    },
+    "about": {
+        "description": [
+            "I am a passionate MERN Stack Developer with expertise in frontend development, responsive design, and integrating third-party APIs.",
+            "I have worked on eCommerce platforms, data-centric applications, admin dashboards, and real-time interactive systems.",
+            "I specialize in ReactJS, NodeJS, TypeScript, Tailwind CSS, and API integrations, ensuring high-performance and scalable solutions."
+        ],
+        "qualities": [
+            {
+                "title": "Development",
+                "description": "Building clean and optimized UI with React.js",
+                "icon": "code"
+            },
+            {
+                "title": "Problem-Solving",
+                "description": "Debugging and optimizing frontend performance",
+                "icon": "lightbulb"
+            },
+            {
+                "title": "Collaboration",
+                "description": "Working closely with teams and stakeholders",
+                "icon": "users"
+            },
+            {
+                "title": "Innovation",
+                "description": "Creating intuitive and engaging web experiences",
+                "icon": "brain"
+            }
+        ]
+    },
+    "skills": {
+        "technical": [
+            {
+                "name": "React.js",
+                "level": 90
+            },
+            {
+                "name": "Next.js",
+                "level": 85
+            },
+            {
+                "name": "TypeScript",
+                "level": 85
+            },
+            {
+                "name": "JavaScript",
+                "level": 90
+            },
+            {
+                "name": "Tailwind CSS",
+                "level": 85
+            },
+            {
+                "name": "Bootstrap",
+                "level": 80
+            },
+            {
+                "name": "Node.js",
+                "level": 75
+            },
+            {
+                "name": "Express.js",
+                "level": 75
+            },
+            {
+                "name": "MongoDB",
+                "level": 70
+            },
+            {
+                "name": "Third-Party Integrations",
+                "level": 80
+            }
+        ],
+        "professional": [
+            {
+                "name": "Frontend Development",
+                "value": 90
+            },
+            {
+                "name": "UI/UX Implementation",
+                "value": 85
+            },
+            {
+                "name": "Performance Optimization",
+                "value": 85
+            },
+            {
+                "name": "API Integration",
+                "value": 88
+            },
+            {
+                "name": "Debugging",
+                "value": 90
+            }
+        ]
+    },
+    "projects": [
+        {
+            "id": 1,
+            "title": "Reup.live",
+            "shortDescription": "A live eCommerce platform with real-time product showcases.",
+            "image":"/images/reup.png",
+            "images":["/images/reup_1.png","/images/reup_2.png"],
+            "fullDescription": "Led the development of Reup.live, an innovative eCommerce marketplace using ReactJS and TypeScript. Integrated PusherJS for real-time chat and implemented PayPal/card payment systems.",
+            "tags": ["Next.js", "TypeScript", "PusherJS", "eCommerce"],
+            "features": [
+                "Real-time chat for buyers and sellers",
+                "Seamless PayPal and card payment integration",
+                "Dynamic product showcase"
+            ],
+            "technologies": {
+                "frontend": ["Next.js", "Tailwind CSS"],
+                "backend": ["Node.js", "MongoDB"]
+            }
+        },
+        {
+            "id": 2,
+            "title": "MBPay E-Wallet",
+            "shortDescription": "A secure and fast digital wallet for bill payments, recharges, and utility services.",
+            "image":"/images/ewallet.png",
+            "images":["/images/ewallet_1.png","/images/ewallet_2.png","/images/ewallet_3.png","/images/ewallet_4.png","/images/ewallet_5.png"],
+            "fullDescription": "MBPay is a feature-rich e-wallet application designed for seamless transactions, bill payments, recharges, and travel bookings. Built with ReactJS, Node.js, and MongoDB, MBPay ensures a smooth and secure user experience for online transactions.",
+            "tags": ["React.js", "Node.js", "MongoDB", "Tailwind CSS", "E-Wallet"],
+            "features": [
+                "Rent Payment",
+                "Credit Card Bill Payment",
+                "Electricity & Water Bill Payment",
+                "Mobile & DTH Recharge",
+                "Internet & Broadband Payment",
+                "Flight & Train Ticket Booking",
+                "Movie & Event Ticket Booking",
+                "Fund Transfer (UPI, Bank Transfer)",
+                "Transaction History & Reports",
+                "User Wallet with Reward Points"
+            ],
+            "technologies": {
+                "frontend": ["React.js", "Tailwind CSS"],
+                "backend": ["Node.js", "Express.js"],
+                "database": ["MongoDB"],
+                "thirdPartyIntegrations": ["Payment Gateway API", "UPI API", "Flight Booking API"]
+            }
+        },        
+        {
+            "id": 3,
+            "title": "BeBranded Admin Panel",
+            "shortDescription": "Admin panel for a branding and marketing platform.",
+            "image":"/images/bebranded.png",
+            "images":["/images/bebranded_1.png","/images/bebranded_2.png"],
+            "fullDescription": "Designed and implemented the admin interface for BeBranded.com.au, integrating APIs and developing UI components with Bootstrap and CoreUI.",
+            "tags": ["React.js", "Bootstrap", "CoreUI"],
+            "features": [
+                "Admin panel for business users",
+                "API integrations for seamless management"
+            ],
+            "technologies": {
+                "frontend": ["React.js", "Bootstrap"]
+            }
+        },
+        {
+            "id": 4,
+            "title": "BPS Trading Platform",
+            "image":"/images/bps.jpeg",
+            "shortDescription": "Crypto trading made easy with real-time data and Binance integration.",
+            "fullDescription": "Developed a full-fledged crypto trading platform utilizing Binance Link APIs. Implemented real-time order book updates, market tickers, and high-frequency trading capabilities using WebSockets and Redis caching.",
+            "tags": [
+                "React.js",
+                "Node.js",
+                "MongoDB",
+                "Binance API",
+                "Socket.io"
+            ],
+            "features": [
+                "Real-time trading charts",
+                "Buy/Sell orders",
+                "TradingView integration",
+                "User portfolio tracking"
+            ],
+            "technologies": {
+                "frontend": [
+                    "React.js",
+                    "TradingView API"
+                ],
+                "backend": [
+                    "Node.js",
+                    "MongoDB",
+                    "Socket.io"
+                ],
+                "deployment": [
+                    "AWS",
+                    "Docker"
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "title": "Hey Buddy - Pet Tags",
+            "liveUrl": "https://app.heybuddy.club/",
+            "image": "/images/heybuddy_4.png",
+            "images": [
+                "/images/heybuddy.png",
+                "/images/heybuddy_2.png",
+                "/images/heybuddy_3.png"
+            ],
+            "shortDescription": "AI-powered health and location alerts for pet owners.",
+            "fullDescription": "Created the frontend for Hey Buddy, an AI-driven pet tracking system that notifies owners about health updates and location changes. Integrated deep linking for seamless mobile experience.",
+            "tags": [
+                "Vue.js",
+                "Deep Linking",
+                "AI Alerts"
+            ],
+            "features": [
+                "Real-time pet location tracking",
+                "AI-based health monitoring",
+                "User-friendly mobile UI"
+            ],
+            "technologies": {
+                "frontend": [
+                    "Vue.js",
+                    "Tailwind CSS"
+                ],
+                "backend": [
+                    "Node.js",
+                    "Firebase"
+                ]
+            }
+        }
+    ]
+}
