@@ -69,6 +69,7 @@ export default function Contact() {
     return true
   }
 
+  
   const handleSubmit = async (e, isGmailButton) => {
     e.preventDefault()
 
